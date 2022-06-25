@@ -41,7 +41,8 @@ function saveTasks(){
   $(".taskUpdated").removeClass("d-none");
   setTimeout(function(){
     $(".taskUpdated").addClass("d-none");
-  },5000);}
+  },5000);
+}
 
 // Load tasks upon page open
 function loadTasks(){
